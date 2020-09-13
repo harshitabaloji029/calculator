@@ -1,0 +1,61 @@
+.container{
+	text-align: center;
+	margin-top: 23px;
+}
+table{
+	margin: auto;
+}
+input{
+	font-size: 34px;
+	border: 4px solid black;
+	border-radius: 20px;
+	height: 60px;
+}
+button{
+	font-size: 40px;
+	background: lightgrey;
+	width: 102px;
+	height: 65px;
+	margin: 4px;
+	border-radius: 20px;
+}
+.calculator{
+	display: inline-block;
+	background-color: lightpink;
+	padding: 18px;
+	border-radius: 53px;
+	border: 4px solid black;
+}
+#hb{
+	text-align: center;
+	margin-top: 23px;
+	font-size: 28px;
+	font-family: serif;
+}
+@media screen and (max-width:375px){
+	.container{
+	width: 50px;
+	}
+table{
+	width: 50px;
+
+}
+input{
+	width: 290px;
+}
+button{
+	width: 70px;
+}
+.calculator{
+	width: 290px;
+}
+
+#hb{
+	width: 300px;
+	text-align: left;
+	font-size: 25px;
+	font-family: serif;
+}
+
+
+}
